@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import User from "./User";
 import InstaService from "../services/instaService";
 import ErrorMessage from "./Error";
+import Loading from "./Loading";
 
 
 export default class Users extends Component {
@@ -11,6 +12,10 @@ export default class Users extends Component {
         users: [],
         error: false
     }
+    componentDidMount() {
+        this.updateUsers();
+    }
+
     updateUsers() {
         this.InstaService.getAllUsers()
             .then(this.onUsersLoaded)
@@ -30,44 +35,29 @@ export default class Users extends Component {
         })
     }
 
-    renderUsers(arr) {
-        return arr.map(user => {
-            const {name, altname, photo, id} = user;
-
-            return (
+    render() {
+        const {users} =  this.state;
+        return (
+            users.length > 0 ?
                 <div className="right">
-                    <User
-                        src={photo}
-                        alt={altname}
-                        name={name}
-                    />
-                    <div className="users__block">
                         <User
-                            src={photo}
-                            alt={altname}
-                            name={name}
-                            min/>
+                            src="../gs_ignat.jpg"
+                            alt="photo"
+                            name="gs_ignat"/>
+
+                    <div className="users__block">
+                        {users.map(({name, altname, photo, id}) => (
+                            <User
+                                key={id}
+                                src={photo}
+                                alt={altname}
+                                name={name}
+                                min />
+
+                        ))}
                     </div>
-                </div>
-            )
-        })
+                </div> :
+                <Loading />
+        );
     }
-
-        render()
-        {
-            const {error, users} = this.state;
-
-            if (error){
-                return <ErrorMessage/>
-            }
-
-            const user = this.renderItems(users);
-
-            return (
-                <div className="right">
-                    {user}
-
-                </div>
-            )
-        }
 }

@@ -7,7 +7,7 @@
             "src": "http://isha.sadhguru.org/blog/wp-content/uploads/2016/05/natures-temples.jpg",
             "alt": "Nature",
             "descr": "This is so perfect! Amazing nature!",
-            "id": "1"
+            "id": 1
         },
         {
             "name": "abracham_mvp",
@@ -16,7 +16,7 @@
             "src": "https://wwwimage-secure.cbsstatic.com/thumbnails/photos/w1920/marquee/1025957/72e1f4c7b764c8d2_mwp_hp_hero_landscape.jpg",
             "alt": "Photo",
             "descr": "Hello, this is my first photo here!",
-            "id": "2"
+            "id": 2
         },
         {
             "name": "gs_ignat",
@@ -25,7 +25,7 @@
             "src": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRfyWaTIxAbtCKe8IID4IHharhR9UAWz5hYa21yYs0AKAIWl2SA5Q&usqp=CAc",
             "alt": "Paste",
             "descr": "My new PASTE!\n Dapper Dan Matt Paste is our flagship product and you will not find a better or more versatile matt styler. It really is that good; messy styles, partings, quiffs, this product will do it all!",
-            "id": "3"
+            "id": 3
         },
         {
             "name": "real_eggs",
@@ -34,7 +34,7 @@
             "src": "https://hips.hearstapps.com/delish/assets/18/08/1519321899-hard-boiled-eggs-horizontal.jpg",
             "alt": "My world",
             "descr": "When you so tired...",
-            "id": "4"
+            "id": 4
         },
         {
             "name": "katefromlviv",
@@ -43,7 +43,7 @@
             "src": "https://nighthelper.com/wp-content/uploads/2016/03/nature_waterfall_summer_lake_trees_90400_3840x2160.jpg",
             "alt": "Lake",
             "descr": "Какое прекрасное летнее озеро! Сфоткала пока ехала в село, к бабушке",
-            "id": "5"
+            "id": 5
         },
         {
             "name": "smoothiemaker",
@@ -52,13 +52,39 @@
             "src": "https://www.culinaryhill.com/wp-content/uploads/2015/01/Caribbean-Passion-Smoothie-Jamba-Juice-Copycat-Culinary-Hill-square.jpg",
             "alt": "Smoothie",
             "descr": "Hello! If you want to drink some delicious smoothies - just call me!",
-            "id": "6"
+            "id": 6
         }
     ],
     "users": [
         {
-            "id": 1,
-            "lol"
+            "name": "gs_ignat",
+            "altname": "Aleksandr Ihnat",
+            "photo":"../gs_ignat.jpg",
+            "id": 1
+        },
+        {
+            "name": "_povkilo_",
+            "altname": "Aleksandr Ihnat",
+            "photo":"https://instagram.fiev4-1.fna.fbcdn.net/v/t51.2885-15/e35/117298303_1663304543828550_324575787521713858_n.jpg?_nc_ht=instagram.fiev4-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=cU00gEVPykUAX9QmRh6&_nc_tp=18&oh=9666860a4dbd9c3cf89dc5ff042b6ae4&oe=5F98A49C",
+            "id": 2
+        },
+        {
+            "name": "andriyviter463",
+            "altname": "andriyviter463",
+            "photo":"https://instagram.fiev4-1.fna.fbcdn.net/v/t51.2885-19/s320x320/81553156_3143420039012093_3708631739573207040_n.jpg?_nc_ht=instagram.fiev4-1.fna.fbcdn.net&_nc_ohc=zvu8tP7mBPwAX9NNBPO&oh=8f40da23d56b4d3e1582ba07e295cd4f&oe=5F98E5B2",
+            "id": 3
+        },
+        {
+            "name": "Влад Свердлов",
+            "altname": "Влад Свердлов",
+            "photo":"https://instagram.fiev4-1.fna.fbcdn.net/v/t51.2885-19/s320x320/87531997_618051292307732_4910681858955542528_n.jpg?_nc_ht=instagram.fiev4-1.fna.fbcdn.net&_nc_ohc=xkfLLg8gisEAX-tTKct&oh=c469bf2598cd7e413d9005b320c3077e&oe=5F9B8A87",
+            "id": 4
+        },
+        {
+            "name": "edge_space",
+            "altname": "Yurii Papka",
+            "photo":"https://instagram.fiev4-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/117468419_187827256069092_5568465915180840931_n.jpg?_nc_ht=instagram.fiev4-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=5ZzDGrWQiBkAX-4756m&_nc_tp=15&oh=155b182c327c21c074eb81eac7a174a8&oe=5F9C0402",
+            "id": 5
         }
     ]
 }
