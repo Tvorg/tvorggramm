@@ -181,6 +181,7 @@ header {
 }
 .Loading_photo{
     max-width: 100px;
+    align-items: center;
 }
 .right{
     display: inline-block;
