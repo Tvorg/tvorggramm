@@ -41,14 +41,15 @@ export default class Users extends Component {
             users.length > 0 ?
                 <div className="right">
                         <User
-                            src="../gs_ignat.jpg"
+                            src="/img/gs_ignat.jpg"
                             alt="photo"
                             name="gs_ignat"/>
 
                     <div className="users__block">
-                        {users.map(({name, altname, photo, id}) => (
+                        {users.map(({name, altname, photo, link, id}) => (
                             <User
                                 key={id}
+                                href={link}
                                 src={photo}
                                 alt={altname}
                                 name={name}

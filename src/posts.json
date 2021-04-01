@@ -21,7 +21,7 @@
         {
             "name": "gs_ignat",
             "altname": "Aleksandr Ihnat",
-            "photo":"../gs_ignat.jpg",
+            "photo":"/img/gs_ignat.jpg",
             "src": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRfyWaTIxAbtCKe8IID4IHharhR9UAWz5hYa21yYs0AKAIWl2SA5Q&usqp=CAc",
             "alt": "Paste",
             "descr": "My new PASTE!\n Dapper Dan Matt Paste is our flagship product and you will not find a better or more versatile matt styler. It really is that good; messy styles, partings, quiffs, this product will do it all!",
@@ -49,7 +49,7 @@
             "name": "smoothiemaker",
             "altname": "Smoothie",
             "photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=480:*",
-            "src": "https://www.culinaryhill.com/wp-content/uploads/2015/01/Caribbean-Passion-Smoothie-Jamba-Juice-Copycat-Culinary-Hill-square.jpg",
+            "src": "https://cace.okis.ru/store/4/7/3/47399/timthumb.jpg",
             "alt": "Smoothie",
             "descr": "Hello! If you want to drink some delicious smoothies - just call me!",
             "id": 6
@@ -57,33 +57,38 @@
     ],
     "users": [
         {
-            "name": "gs_ignat",
+            "name": "tvorg.gs_ignat",
             "altname": "Aleksandr Ihnat",
-            "photo":"../gs_ignat.jpg",
+            "photo":"/img/gs_ignat.jpg",
+            "link": "https://www.instagram.com/tvorg.gs_ignat/",
             "id": 1
         },
         {
             "name": "_povkilo_",
-            "altname": "Aleksandr Ihnat",
-            "photo":"https://instagram.fiev4-1.fna.fbcdn.net/v/t51.2885-15/e35/117298303_1663304543828550_324575787521713858_n.jpg?_nc_ht=instagram.fiev4-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=cU00gEVPykUAX9QmRh6&_nc_tp=18&oh=9666860a4dbd9c3cf89dc5ff042b6ae4&oe=5F98A49C",
+            "altname": "_povkilo_",
+            "photo": "/img/povkilo.jpg",
+            "link": "https://www.instagram.com/_povkilo_/",
             "id": 2
         },
         {
-            "name": "andriyviter463",
-            "altname": "andriyviter463",
-            "photo":"https://instagram.fiev4-1.fna.fbcdn.net/v/t51.2885-19/s320x320/81553156_3143420039012093_3708631739573207040_n.jpg?_nc_ht=instagram.fiev4-1.fna.fbcdn.net&_nc_ohc=zvu8tP7mBPwAX9NNBPO&oh=8f40da23d56b4d3e1582ba07e295cd4f&oe=5F98E5B2",
+            "name": "m_rabodzey",
+            "altname": "m_rabodzey",
+            "photo":"/img/m_rabodzey.jpg",
+            "link": "https://www.instagram.com/m_rabodzey/",
             "id": 3
         },
         {
-            "name": "Влад Свердлов",
-            "altname": "Влад Свердлов",
-            "photo":"https://instagram.fiev4-1.fna.fbcdn.net/v/t51.2885-19/s320x320/87531997_618051292307732_4910681858955542528_n.jpg?_nc_ht=instagram.fiev4-1.fna.fbcdn.net&_nc_ohc=xkfLLg8gisEAX-tTKct&oh=c469bf2598cd7e413d9005b320c3077e&oe=5F9B8A87",
+            "name": "ihnatka_ya",
+            "altname": "ihnatka_ya",
+            "photo": "/img/ihnatka_ya.jpg",
+            "link": "https://www.instagram.com/ihnatenko_ya/",
             "id": 4
         },
         {
             "name": "edge_space",
             "altname": "Yurii Papka",
-            "photo":"https://instagram.fiev4-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/117468419_187827256069092_5568465915180840931_n.jpg?_nc_ht=instagram.fiev4-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=5ZzDGrWQiBkAX-4756m&_nc_tp=15&oh=155b182c327c21c074eb81eac7a174a8&oe=5F9C0402",
+            "photo": "/img/edge_space.jpg",
+            "link": "https://www.instagram.com/edge_space/",
             "id": 5
         }
     ]
